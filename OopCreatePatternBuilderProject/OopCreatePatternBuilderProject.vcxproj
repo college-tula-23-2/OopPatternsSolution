@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d1f4f046-a40e-4c6c-b8e2-664ded545d3c}</ProjectGuid>
-    <RootNamespace>OopCreatorsPatternsProject</RootNamespace>
+    <ProjectGuid>{27dc8058-d2fd-40be-b047-d95599f248b7}</ProjectGuid>
+    <RootNamespace>OopCreatePatternBuilderProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,14 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OopCreatorsPatternsProject.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CarthageUnits.h" />
-    <ClInclude Include="IArmyFactory.h" />
-    <ClInclude Include="IUnitFactory.h" />
-    <ClInclude Include="RomanUnits.h" />
-    <ClInclude Include="Unit.h" />
+    <ClCompile Include="OopCreatePatternBuilderProject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

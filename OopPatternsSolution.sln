@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OopCreatorsPatternsProject", "OopCreatorsPatternsProject\OopCreatorsPatternsProject.vcxproj", "{D1F4F046-A40E-4C6C-B8E2-664DED545D3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OopCreatePatternBuilderProject", "OopCreatePatternBuilderProject\OopCreatePatternBuilderProject.vcxproj", "{27DC8058-D2FD-40BE-B047-D95599F248B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{D1F4F046-A40E-4C6C-B8E2-664DED545D3C}.Release|x64.Build.0 = Release|x64
 		{D1F4F046-A40E-4C6C-B8E2-664DED545D3C}.Release|x86.ActiveCfg = Release|Win32
 		{D1F4F046-A40E-4C6C-B8E2-664DED545D3C}.Release|x86.Build.0 = Release|Win32
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Debug|x64.ActiveCfg = Debug|x64
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Debug|x64.Build.0 = Debug|x64
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Debug|x86.Build.0 = Debug|Win32
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Release|x64.ActiveCfg = Release|x64
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Release|x64.Build.0 = Release|x64
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Release|x86.ActiveCfg = Release|Win32
+		{27DC8058-D2FD-40BE-B047-D95599F248B7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
